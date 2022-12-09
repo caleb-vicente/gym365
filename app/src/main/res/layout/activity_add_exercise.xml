@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="646dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/pecho_icono"
+            android:onClick="clickPecho"
+            android:paddingLeft="15dp"
+            android:text="@string/pecho" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/pierna_icono"
+            android:onClick="clickPiernas"
+            android:paddingLeft="15dp"
+            android:text="@string/piernas" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/espalda_icono"
+            android:onClick="clickEspalda"
+            android:paddingLeft="15dp"
+            android:text="@string/espalda" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/cardio_icono"
+            android:onClick="clickCardio"
+            android:paddingLeft="15dp"
+            android:text="@string/cardio" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/brazos_icono"
+            android:onClick="clickBiceps"
+            android:paddingLeft="15dp"
+            android:text="@string/biceps" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/hombro_icono"
+            android:onClick="clickHombro"
+            android:paddingLeft="15dp"
+            android:text="@string/hombro" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/brazos_icono"
+            android:onClick="clickTriceps"
+            android:paddingLeft="15dp"
+            android:text="@string/triceps" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableLeft="@drawable/abdominal_icono"
+            android:onClick="clickAbdominal"
+            android:paddingLeft="15dp"
+            android:text="@string/abdominal" />
+
+        <Button
+            android:layout_width="128dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="GUARDAR"
+            android:onClick="save_dates" />
+
+    </LinearLayout>
+
+</LinearLayout>

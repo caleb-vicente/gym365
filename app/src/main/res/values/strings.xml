@@ -1,0 +1,102 @@
+<resources>
+    <!--Strings relacionados con el menu principal-->
+    <string name="text">Bienvenido</string>
+    <string name="app_name">Gym365</string>
+    <string name="title_activity_category_exercise">Gym 365</string>
+    <string name="menu_insert">Add exercise</string>
+    <string name="menu_about">About</string>
+    <string name="menu_delete">Delete exercise</string>
+    <string name="button1">Tablas</string>
+    <string name="button2">Calendario</string>
+    <string name="button3">Ejercicios</string>
+    <string name="button4">Rutas</string>
+
+
+    <!--Strings relacionados con la settings layout-->
+    <string name="pref_default_display_name">Nombre Apellidos</string>
+    <string name="pref_title_display_name">Nombre de usuario</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <!--Revisar, porque en esta sección hay strings creo que están repetidos-->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_about">Sobre nosotros</string>
+
+
+
+    <!--Strings relacionados con la seleccion de categorias-->
+    <string name="pecho">Pecho</string>
+    <string name="piernas">Piernas</string>
+    <string name="cardio">Cardio</string>
+    <string name="espalda">Espalda</string>
+    <string name="biceps">Biceps</string>
+    <string name="hombro">Hombro</string>
+    <string name="triceps">Triceps</string>
+    <string name="abdominal">Abdominal</string>
+
+
+    <!--Strings relacionados con la sección de ejercicios y tablas-->
+    <string name="date_table">Dia</string>
+    <string name="category"></string>
+    <string name="addExercise">Añadir ejercicios</string>
+    <string name="confirm">Confirmar tabla</string>
+    <string name="name">Agrega el nombre de la tabla</string>
+    <string name="body">Inserte la descripción</string>
+    <string name="day">Establece la fecha</string>
+    <string name="dialog_title_remove_table">Eliminar tabla</string>
+    <string name="message_dialog_remove_table">¿Está seguro que desea eliminar la tabla?</string>
+    <string name="message_dialog_remove_table_without_save">¿Está seguro que desea eliminar la tabla sin guardar?</string>
+    <string name="new_event">Añadir rutina</string>
+    <string name="my_calendar">Ir a mi calendario</string>
+    <string name="hour1">Establece la hora</string>
+    <string name="add_exercise">Añadir ejercicios</string>
+
+
+    <!--Strings relacionados con la seleccion de rutas-->
+    <string name="nueva_ruta">Nueva Ruta</string>
+    <string name="rutas_guardadas">Rutas Guardadas</string>
+    <string name="rutas_recomendadas">Rutas Recomendadas</string>
+    <string name="ruta1">Leganés - Getafe</string>
+    <string name="ruta2">Leganés - Alcorcón</string>
+    <string name="ruta3">Leganés - Casa de Campo</string>
+    <string name="message_dialog">Pulsa en EMPEZAR RUTA para personalizar tu propia ruta, o pincha en el mapa tu destino para generar la mejor ruta pulsando en el icono</string>
+    <string name="dialog_buttonok">OK</string>
+    <string name="dialog_buttonCancel">CANCEL</string>
+    <string name="dialog_title">Establecer una nueva ruta</string>
+    <string name="start_route">Empezar ruta</string>
+    <string name="end_route">Finalizar ruta</string>
+    <string name="recomroutes_text">Rutas recomendadas</string>
+    <string name="dialog_title_remove_route">Eliminar ruta</string>
+    <string name="message_dialog_remove_route">¿Está seguro que desea eliminar la ruta?</string>
+
+
+
+    <string name="añadir_con_series">Añadir con Serie</string>
+    <string name="añadir_sin_series">Añadir sin Serie</string>
+
+
+    <!--Strings relacionados con quienes somos-->
+    <string name="us">¿Quiénes somos?</string>
+    <string name="caleb"> Hola!!! Soy Caleb Vicente Moreno\n Soy estudiante de Ingeniería de Imagen y Sonido en la Universidad Carlos III de Madrid.
+        Junto con mis compañeros he desarrollado esta app, para que no tengas más excusas ;). \n
+        Contacto: \n
+        100363905@alumnos.uc3m.es
+    </string>
+    <string name="cesar">Buenas!!! Soy Cesar Guijorro un apasionado de las nuevas tecnologías y el deporte\n
+    Crear Gym 365 ha sido la oportunidad de ofrecerte a ti una aplicación que te ayude realmente en la organización de tus entrenamientos\n
+    Contacto: \n
+        100363930@alumnos.uc3m.es
+    </string>
+    <string name="jesus">Hola!!! Soy Jesus Morante, y aparte de ingeniero, juego al futbol desde niño.\n
+    Pienso que esta aplicación de verdad te puede ayudar a mejorar tu rendimiento. Espero que la disfrutes!!\n
+    Contacto: \n
+        100346330@alumnos.uc3m.es
+    </string>
+
+    <!--Strings relacionados con temperatura-->
+    <string name="temp_max">temp max</string>
+    <string name="temp_min">temp min</string>
+
+    <!--Strings relacionados con calendario-->
+    <string name="title_calendar">Mi calendario</string>
+
+</resources>

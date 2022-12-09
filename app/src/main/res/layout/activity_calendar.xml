@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/activity_calendar">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="50dp"
+            android:textColor="@color/colorGoldButton"
+            android:textStyle="bold"
+            android:text="@string/title_calendar">
+
+        </TextView>
+    </LinearLayout>
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@xml/borde_redondo"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:padding="10dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+            android:layout_margin="20dp"
+        android:onClick="newEvent"
+        android:background="@xml/borde_redondo"
+        android:backgroundTint="@color/colorGoldButton"
+            android:drawableLeft="@drawable/google_calendar"
+        android:text="@string/new_event">
+    </Button>
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:onClick="myCalendar"
+            android:drawableLeft="@drawable/google_calendar"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorGoldButton"
+            android:text="@string/my_calendar">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

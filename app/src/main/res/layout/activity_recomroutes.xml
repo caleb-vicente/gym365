@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruta2">
+
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ruta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@xml/borde_redondo"
+            android:onClick="clickRuta1"
+            android:backgroundTint="@color/colorGoldButton"
+            android:text="@string/ruta1"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/ruta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:onClick="clickRuta2"
+            android:backgroundTint="@color/colorGoldButton"
+            android:text="@string/ruta2"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/ruta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorGoldButton"
+            android:onClick="clickRuta3"
+            android:text="@string/ruta3"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

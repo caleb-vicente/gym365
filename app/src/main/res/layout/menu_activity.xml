@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20mm"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/text"
+            android:textColor="#ffff"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableBottom="@drawable/mancuerna_icono"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:onClick="clickButton3"
+            android:text="@string/button3"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="clickButton2"
+            android:drawableBottom="@drawable/calendario_icono"
+            android:paddingBottom="10dp"
+            android:text="@string/button2"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="2mm"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        ​
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="clickButton1"
+            android:drawableBottom="@drawable/tablas_icono"
+            android:paddingBottom="10dp"
+            android:text="@string/button1"
+            tools:ignore="OnClick" />
+
+        <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="10dp"
+        android:background="@xml/borde_redondo"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="clickButton4"
+        android:drawableBottom="@drawable/bici_icono"
+        android:paddingBottom="10dp"
+        android:text="@string/button4"
+        tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

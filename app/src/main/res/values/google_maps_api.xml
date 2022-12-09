@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyCBkulwHyt2YwdGH7Q2Fvi1npBl3EnKcHA
+    </string>
+
+    <integer name="google_play_services_version">12451000</integer>
+
+</resources>

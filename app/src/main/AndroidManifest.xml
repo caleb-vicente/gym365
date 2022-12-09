@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gym365.it.gym">
+
+    <!--Esto da permisos a poder descargar imagenes de internet-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+
+    <!--Esto da permisos de acceso a la localización-->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.gym365.it.gym.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.gym365.it.gym.MenuActivity">
+        </activity>
+        <activity
+            android:name="com.gym365.it.gym.Activity_exercise_series"
+            android:label="Gym 365">
+        </activity>
+        <activity android:name="com.gym365.it.gym.Activity_calendar">
+        </activity>
+        <activity android:name="com.gym365.it.gym.Activity_tables">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="com.gym365.it.gym.Activity_exercises">
+        </activity>
+        <activity android:name="com.gym365.it.gym.Activity_routes">
+        </activity>
+
+        <activity
+            android:name="com.gym365.it.gym.Activity_category_exercise"
+            android:label="@string/title_activity_category_exercise">
+        </activity>
+        <activity
+            android:name="com.gym365.it.gym.Activity_add_table"
+            android:label="Gym 365">
+        </activity>
+        <activity
+            android:name="com.gym365.it.gym.Activity_add_exercises"
+            android:label="Gym 365">
+        </activity>
+        <activity
+            android:name="com.gym365.it.gym.Activity_add_category_exercise"
+            android:label="Gym 365"
+            >
+        </activity>
+        <activity
+            android:name="com.gym365.it.gym.Activity_list_table"
+            android:label="Gym 365">
+        </activity>
+
+        <activity android:name="com.gym365.it.gym.SettingsActivity">
+        </activity>
+
+        <activity android:name="com.gym365.it.gym.Activity_newroute">
+        </activity>
+
+        <activity android:name="com.gym365.it.gym.Activity_recomroutes">
+        </activity>
+
+        <activity android:name="com.gym365.it.gym.Activity_savedroutes">
+        </activity>
+        <activity android:name="com.gym365.it.gym.Activity_savedroutesmap">
+        </activity>
+        <activity android:name="com.gym365.it.gym.Activity_recomroutesmap">
+        </activity>
+        <activity
+            android:name="com.gym365.it.gym.us"
+            android:label="Gym 365">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+
+</manifest>

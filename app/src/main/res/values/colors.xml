@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#B1700C</color>
+    <color name="colorPrimary">#EEA91A</color>
+    <color name="colorAccent">#E4D5BB</color>
+    <color name="transparent">#9E000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorGoldButton">#DBAA35</color>
+    <color name="colortabla">#F5F5F5</color>
+    <color name="marron">#0B0B0B</color>
+    <color name="black">#000000</color>
+    <color name="fondo_list_table">#2B2A2A</color>
+
+</resources>

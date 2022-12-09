@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@xml/shape_dialog"
+        android:padding="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <TextView
+                android:id="@+id/dialog_exercise_title"
+                android:gravity="center_horizontal"
+                android:text="Nombre ejercicio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:typeface="serif"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/dialog_exercise_subtitle"
+                android:gravity="center"
+                android:text="SERIE I"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:typeface="serif"
+                android:textSize="30dp"
+                />
+
+        </LinearLayout>
+        <View
+            android:id="@+id/Line"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="203dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/nº_repetitions"
+                    android:layout_width="195dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Número de Repeticiones"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <NumberPicker
+                    android:id="@+id/numberPickers"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/nº_kilos"
+                    android:layout_width="195dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Número de kilos"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <NumberPicker
+                    android:id="@+id/numberPickers2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_add_serie"
+            android:layout_width="56dp"
+            android:layout_height="57dp"
+            android:layout_gravity="right"
+            android:background="@drawable/icono_confirmar" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruta2">
+
+    <LinearLayout
+        android:layout_width = "wrap_content"
+        android:layout_height = "100dp"
+        android:layout_marginTop = "100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@xml/borde_redondo"
+        android:backgroundTint="@color/colorGoldButton"
+        android:gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/borde_redondo"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:id="@+id/temp_icono"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textStyle="bold"
+                android:src="@drawable/sol_icono"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding = "10dp"
+            android:orientation= "vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/temp_min"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/temp_min"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingRight="10dp"
+                android:text = "mi"
+                android:textColor="@color/white"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding = "10dp"
+            android:orientation= "vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/temp_max"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/temp_max"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+
+                android:text = "mi"
+                android:textColor="@color/white"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="@dimen/mainbuttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@xml/borde_redondo"
+        android:backgroundTint="@color/colorGoldButton"
+        android:text="@string/nueva_ruta"
+        android:drawableLeft="@drawable/nueva_ruta"
+        android:paddingLeft="15dp"
+        android:onClick="clickNuevaRuta" />
+
+    <LinearLayout
+        android:layout_width="@dimen/mainbuttons_width"
+        android:layout_height="@dimen/mainbuttons_height"
+        android:layout_marginTop="2mm"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        ​
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorGoldButton"
+            android:onClick="clickRutasGuardadas"
+            android:drawableBottom="@drawable/marcador_mapa"
+            android:paddingBottom="10dp"
+            android:text="@string/rutas_guardadas" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorGoldButton"
+            android:onClick="clickRutasRecomendadas"
+            android:drawableBottom="@drawable/mapas_icono"
+            android:paddingBottom="10dp"
+            android:text="@string/rutas_recomendadas" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@xml/shape_dialog">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="@color/colorGoldButton"
+        android:textAlignment="center"
+        android:text="Modifica tus series"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/fab_margin">
+        <TextView
+            android:id="@+id/prueba"
+            android:layout_width="195dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Número de Repeticiones"
+            android:textColor="@color/colorGoldButton"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        <NumberPicker
+            android:id="@+id/edit_repes"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/nº_kilos"
+            android:layout_width="195dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Número de kilos"
+            android:textColor="@color/colorGoldButton"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <NumberPicker
+            android:id="@+id/edit_weight"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:id="@+id/confirm_news_serie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@xml/borde_redondo"
+            android:backgroundTint="@color/colorGoldButton"
+            android:padding="10dp"
+            android:text="@string/confirm" />
+    </LinearLayout>
+</LinearLayout>
